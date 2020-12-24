@@ -1,4 +1,4 @@
-ЗАДАНИЕ 8 и 9
+ЗАДАНИЕ 8 
 
 Задаем JAVA HOME, Path JDK и Maven
 
