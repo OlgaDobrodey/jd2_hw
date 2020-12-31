@@ -1,0 +1,24 @@
+Microsoft Windows [Version 10.0.18363.1256]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Olga>Path=%Path%;D:\java\apache-maven-3.6.3\bin
+
+C:\Users\Olga>mvn --version
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: D:\java\apache-maven-3.6.3\bin\..
+Java version: 11, vendor: Oracle Corporation, runtime: D:\java\jdk-11
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\Olga>D:\Java\jdk-11\bin\java.exe -classpath D:\jd2_hw\module2\database\target\classes;D:\java\.m2\repositoty\mysql\mysql-connector-java\8.0.22\mysql-connector-java-8.0.22.jar; it.academy.task4 "14,'2011-5-10',3, 242"
+14,'2011-5-10',3, 242
+number = 1 payDate = 2011-05-10 receiver = 1 cost=20000.0
+number = 2 payDate = 2011-05-10 receiver = 2 cost=94200.0
+number = 3 payDate = 2011-05-11 receiver = 3 cost=10000.0
+number = 4 payDate = 2011-05-11 receiver = 2 cost=12950.0
+number = 5 payDate = 2011-05-11 receiver = 1 cost=2000.0
+number = 6 payDate = 2011-05-10 receiver = 2 cost=94200.0
+number = 7 payDate = 2011-05-10 receiver = 2 cost=94200.0
+number = 8 payDate = 2011-05-10 receiver = 3 cost=24200.0
+number = 11 payDate = 2011-05-10 receiver = 3 cost=24200.0
+number = 14 payDate = 2011-05-10 receiver = 3 cost=242.0
