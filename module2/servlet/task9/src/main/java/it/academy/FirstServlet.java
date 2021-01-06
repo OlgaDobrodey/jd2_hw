@@ -24,6 +24,7 @@ public class FirstServlet extends HttpServlet {
         ) {
             number = output.readInt();
         } catch (IOException ex) {
+            ex.printStackTrace();
         }
         int count = number+1;
         out.println("<html>"
@@ -40,6 +41,7 @@ public class FirstServlet extends HttpServlet {
                         new FileOutputStream(realPath)));) {
             input.writeInt(count);
         } catch (IOException ex) {
+            ex.printStackTrace();
         }
     }
 
