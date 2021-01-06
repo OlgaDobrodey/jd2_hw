@@ -10,8 +10,8 @@ Java version: 11, vendor: Oracle Corporation, runtime: D:\java\jdk-11
 Default locale: en_US, platform encoding: Cp1252
 OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
-C:\Users\Olga>D:\Java\jdk-11\bin\java.exe -classpath D:\jd2_hw\module2\database\target\classes;D:\java\.m2\repositoty\mysql\mysql-connector-java\8.0.22\mysql-connector-java-8.0.22.jar; it.academy.task4 "14,'2011-5-10',3, 242"
-14,'2011-5-10',3, 242
+C:\Users\Olga>D:\Java\jdk-11\bin\java.exe -classpath D:\jd2_hw\module2\database\target\classes;D:\java\.m2\repositoty\mysql\mysql-connector-java\8.0.22\mysql-connector-java-8.0.22.jar; it.academy.task4 "14,'2011-05-10',3, 242"
+14,'2011-05-10',3, 242
 number = 1 payDate = 2011-05-10 receiver = 1 cost=20000.0
 number = 2 payDate = 2011-05-10 receiver = 2 cost=94200.0
 number = 3 payDate = 2011-05-11 receiver = 3 cost=10000.0
