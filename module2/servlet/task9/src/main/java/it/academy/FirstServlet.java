@@ -22,7 +22,7 @@ public class FirstServlet extends HttpServlet {
                         new BufferedInputStream(
                                 new FileInputStream(realPath)));
         ) {
-            number = output.readInt() + 1;
+            number = output.readInt();
         } catch (IOException ex) {
         }
         int count = number+1;
